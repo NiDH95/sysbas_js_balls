@@ -36,6 +36,7 @@ function draw() {
   y2 += ySpeed2;
   if (x2 > width - r2 || x2 < r2) {
     xSpeed2 = -xSpeed2;
+    fill(random((250) (250) (250));
   }
   if (y2 > height - r2 || y2 < r2) {
     ySpeed2 = -ySpeed2;
